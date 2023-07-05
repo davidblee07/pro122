@@ -194,7 +194,7 @@ function askBot() {
             $("#bot_input_text").val('');
 
             var chat_input_data = {
-                "": user_bot_input_text
+                "user_bot_input_text": user_bot_input_text
             }
 
             $.ajax({
